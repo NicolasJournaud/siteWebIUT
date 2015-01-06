@@ -1,0 +1,20 @@
+nav, form
+{
+	display: inline;
+}
+
+header
+{
+	text-align: center;
+	padding: 0.5em;
+	background-color: lightgrey;
+	border-radius: 0.4em;
+}
+
+nav a, form
+{
+	text-decoration: none;
+	padding: 0.6em;
+	border-left: 0.1em solid black;
+	margin: 0em;
+}
