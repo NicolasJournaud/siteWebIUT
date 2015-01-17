@@ -1,4 +1,4 @@
-nav, form
+header nav, header form
 {
 	display: inline;
 }
@@ -11,7 +11,7 @@ header
 	border-radius: 0.4em;
 }
 
-nav a, form
+header nav a, header form
 {
 	text-decoration: none;
 	padding: 0.3em 0.5em;

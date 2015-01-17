@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Valider la commande - Nom du site</title>
+	</head>	
+	<body>
+		<header>
+			<nav>
+				<a href="index.html">Accueil</a>
+				<a href="produits.html">Produits</a>
+				<a href="contact.html">Qui Sommes Nous ?</a>
+			</nav>
+			<form action="recherche.html">
+				<input placeholder="Recherche" name="Recherche"/>				
+			</form>
+		</header>
+		
+		<h1>Valider votre commande</h1>
+		<section>
+			<h2>Informations concernant votre commande</h2>
+			<p>
+				Nombre d'articles : 3 <br/>
+				Prix total : 268€
+			</p>
+		</section>
+		<section>
+			<h2>Adresse de livraison</h2>
+			<form method="get" action="none">
+				<label>Nom & Prénom : <input type="text"/></label>
+				<label>Adresse 1 : <input type="text"/></label>
+				<label>Adresse 2 : <input type="text"/></label>
+				<label>Code Postal : <input type="text"/></label>
+				<label>Ville : <input type="text"/></label>
+				<button>Valider la Commande</button>
+			</form>
+		</section>
+	</body>
+</html>
