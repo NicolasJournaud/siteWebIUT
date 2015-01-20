@@ -1,27 +1,35 @@
+body
+{
+	font-family: Calibri;
+}
+
 header
 {
 	text-align: center;
-	padding: 0.5em;
+	padding: 0.25em;
 	background-color: grey;
 	border-radius: 0.5em;
 }
 
-header nav, header form
+header nav, header nav a, header form
 {
-	display: inline;
+	display: inline-block;
+}
+
+header nav a
+{
+	border-right: 0.2em solid white;
 }
 
 header nav a, header form
 {
 	text-decoration: none;
 	padding: 0.3em 0.5em;
-	padding-right: 0.3em;
-	border-left: 0.2em solid white;
-	margin: 0em;
+	padding-left: 0.3em;
 	color: white;
 }
 
-.listeArticle
+#listeArticle
 {
 }
 
@@ -62,6 +70,20 @@ h1+img+section
 	vertical-align: top;
 }
 
+h1+img+section a
+{
+	color: white;
+	text-decoration: none;
+	background-color: grey;
+	padding: 0.5em;
+	border: 1px solid black;
+}
+
+h2
+{
+	font-style: italic;
+}
+
 table
 {
 	border-collapse: collapse;
@@ -71,11 +93,12 @@ table
 table tr td
 {
 	border-top: 1px solid lightgrey;
+	width: 50%;
 }
 
 table th
 {
-	font-variant: bold;
+	font-weight: bold;
 	text-align: left
 }
 
@@ -95,7 +118,4 @@ form label
 form label input
 {
 	display: inline-block;
-	width: 30em;
-	position: absolute;
-	left: 10em;
 }
