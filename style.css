@@ -3,7 +3,7 @@ header
 	text-align: center;
 	padding: 0.5em;
 	background-color: grey;
-	border-radius: 0.4em;
+	border-radius: 0.5em;
 }
 
 header nav, header form
@@ -23,13 +23,13 @@ header nav a, header form
 
 .listeArticle
 {
-
 }
 
 .article
 {
 	display: inline-block;
 	text-align: center;
+	margin: 2em;
 	margin-bottom: 2em;
 }
 
@@ -38,6 +38,22 @@ header nav a, header form
 	border: 1px solid black;
 	display: block;
 	margin-bottom: 0.5em;
+}
+
+.article a
+{
+	text-decoration: none;
+	color: black;
+}
+
+h1
+{
+	color: white;
+	background-color: grey;
+	border-radius: 0.5em;
+	text-align: center;
+	
+	padding: 0.1em;
 }
 
 h1+img+section
